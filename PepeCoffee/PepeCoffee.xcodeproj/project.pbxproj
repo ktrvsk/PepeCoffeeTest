@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		356D0904EB1B52D629FB6E83 /* Pods_PepeCoffee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED9A12AE04B6C309C7C1B8F7 /* Pods_PepeCoffee.framework */; };
 		61476C7A296EF43D0038936E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61476C79296EF43D0038936E /* AppDelegate.swift */; };
 		61476C7C296EF43D0038936E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61476C7B296EF43D0038936E /* SceneDelegate.swift */; };
 		61476C7E296EF43D0038936E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61476C7D296EF43D0038936E /* ViewController.swift */; };
 		61476C81296EF43D0038936E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61476C7F296EF43D0038936E /* Main.storyboard */; };
 		61476C83296EF43F0038936E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61476C82296EF43F0038936E /* Assets.xcassets */; };
 		61476C86296EF43F0038936E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61476C84296EF43F0038936E /* LaunchScreen.storyboard */; };
+		615B8435298D0A2C001F5EEC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 615B8434298D0A2C001F5EEC /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1FBA2B7592FDEB047500C519 /* Pods-PepeCoffee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PepeCoffee.debug.xcconfig"; path = "Target Support Files/Pods-PepeCoffee/Pods-PepeCoffee.debug.xcconfig"; sourceTree = "<group>"; };
 		61476C76296EF43D0038936E /* PepeCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PepeCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61476C79296EF43D0038936E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61476C7B296EF43D0038936E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		61476C82296EF43F0038936E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61476C85296EF43F0038936E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61476C87296EF43F0038936E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		615B8434298D0A2C001F5EEC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EA413912EDEFCC0E4658768D /* Pods-PepeCoffee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PepeCoffee.release.xcconfig"; path = "Target Support Files/Pods-PepeCoffee/Pods-PepeCoffee.release.xcconfig"; sourceTree = "<group>"; };
+		ED9A12AE04B6C309C7C1B8F7 /* Pods_PepeCoffee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PepeCoffee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				356D0904EB1B52D629FB6E83 /* Pods_PepeCoffee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				61476C78296EF43D0038936E /* PepeCoffee */,
 				61476C77296EF43D0038936E /* Products */,
+				D6D4CD74B3B6B5AA49BF05A0 /* Frameworks */,
+				8022154BDFC241850EAC6EF4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +72,27 @@
 				61476C82296EF43F0038936E /* Assets.xcassets */,
 				61476C84296EF43F0038936E /* LaunchScreen.storyboard */,
 				61476C87296EF43F0038936E /* Info.plist */,
+				615B8434298D0A2C001F5EEC /* GoogleService-Info.plist */,
 			);
 			path = PepeCoffee;
+			sourceTree = "<group>";
+		};
+		8022154BDFC241850EAC6EF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FBA2B7592FDEB047500C519 /* Pods-PepeCoffee.debug.xcconfig */,
+				EA413912EDEFCC0E4658768D /* Pods-PepeCoffee.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D6D4CD74B3B6B5AA49BF05A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED9A12AE04B6C309C7C1B8F7 /* Pods_PepeCoffee.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61476C8A296EF43F0038936E /* Build configuration list for PBXNativeTarget "PepeCoffee" */;
 			buildPhases = (
+				D69490B98EEEEABBA02D185A /* [CP] Check Pods Manifest.lock */,
 				61476C72296EF43D0038936E /* Sources */,
 				61476C73296EF43D0038936E /* Frameworks */,
 				61476C74296EF43D0038936E /* Resources */,
+				5034F199BE69EC9806B59C59 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +156,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				61476C86296EF43F0038936E /* LaunchScreen.storyboard in Resources */,
+				615B8435298D0A2C001F5EEC /* GoogleService-Info.plist in Resources */,
 				61476C83296EF43F0038936E /* Assets.xcassets in Resources */,
 				61476C81296EF43D0038936E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5034F199BE69EC9806B59C59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PepeCoffee/Pods-PepeCoffee-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PepeCoffee/Pods-PepeCoffee-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PepeCoffee/Pods-PepeCoffee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D69490B98EEEEABBA02D185A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PepeCoffee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		61476C72296EF43D0038936E /* Sources */ = {
@@ -282,6 +355,7 @@
 		};
 		61476C8B296EF43F0038936E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FBA2B7592FDEB047500C519 /* Pods-PepeCoffee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +384,7 @@
 		};
 		61476C8C296EF43F0038936E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA413912EDEFCC0E4658768D /* Pods-PepeCoffee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

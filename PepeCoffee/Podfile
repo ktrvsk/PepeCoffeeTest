@@ -1,0 +1,13 @@
+platform :ios, '11.0'
+
+target 'PepeCoffee' do
+  use_frameworks!
+
+  # Pods for PepeCoffee
+
+pod 'FirebaseAnalytics'
+pod 'FirebaseAuth'
+pod 'FirebaseFirestore'
+pod 'Alamofire'
+
+end

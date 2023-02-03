@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>473867345774-6q85m2jlhe1qrlve08he6iave51m2sui.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.473867345774-6q85m2jlhe1qrlve08he6iave51m2sui</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBFWL-Pdh3C5elFr0ACC9qOWjinqnDbC-w</string>
+	<key>GCM_SENDER_ID</key>
+	<string>473867345774</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.kseniyaturovskaya.PepeCoffee</string>
+	<key>PROJECT_ID</key>
+	<string>pepecoffee-dddb2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pepecoffee-dddb2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:473867345774:ios:dcd6f922d4b838952eab7f</string>
+</dict>
+</plist>
